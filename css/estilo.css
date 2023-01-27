@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+}
+
+/** estilo de los contenidos*/
+.contenedor{
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    width: 60%;
+    background: #FFF;
+    padding: 10PX;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.63); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.63);
+}
+
+.texto{
+    margin-left: 40px;
+    width: 100%;
+}
+
+.texto2,.texto3,.texto4,.texto5{
+    background-color: rgba(178,173,174,0.43);
+    border: 3px solid rgba(178,173,174,0.43);
+    box-shadow: 2px 2px 7px 1px rgba(178,173,174,0.43);
+}
+
+.perfil_academico,.experiencia_laboral,.estudios_complementarios,.contacto{
+    border: 3px solid rgba(28,110,164,0.43);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.63); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.63);
+    margin: 10px 0 0;
+    padding: 0 3px 0 0;
+    
+    
+}
+dl{font-weight: bold;
+}  
+
+h2,dl{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Rowdies', cursive;
+    font-family: 'Satisfy', cursive;
+}
+
+p,dd{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Rowdies', cursive;
+    font-family: 'Satisfy', cursive;
+}
+
+.header{
+    background-color: cadetblue;
+    padding: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.63); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.63);
+    display: flex;
+
+}
+/**imagen de perfil*/
+
+.imagen{
+    height: 6cm; 
+    width: 4cm;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    filter: contrast(100%);
+    -webkit-filter: contrast(100%);
+    
+}
+
+/**icono de titulos**/
+
+.iestudios,.ilaboral,.icomplementario,.iredes{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(178,173,174,0.43);
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/**estilo de los botonesy contenido oculto*/
+.ocultar1,.ocullab,.comlementario{
+    display: none;
+
+}
+
+.boton1,.laboral1,.compl1{
+	box-shadow: 4px 5px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:25px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:3px 4px 0px #283966;
+    margin-left: 52%;
+    margin-bottom: 2%;
+}
+
+.boton1,.laboral1,.compl1{
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+
+.boton1,.laboral1,.compl1 {
+	position:relative;
+	top:1px;
+}
+
+.compl1{
+    margin-left: 41%;
+}
+
+.laboral1{
+margin-left: 48%;
+}
+
+.cerrar1,.cerrar2,.complc{
+	box-shadow: 4px 5px 0px 0px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:25px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 15px;
+	text-decoration:none;
+	text-shadow:3px 4px 0px #283966;
+    margin-left: 80%;
+}
+
+.cerrar1,.cerrar2,.complc:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+
+.cerrar1,.cerrar2,.complc:active {
+	position:relative;
+	top:1px;
+}
+
+.face,.ws,.ig,.in,.telegram,.mail{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
